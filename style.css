@@ -1,0 +1,88 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 400px;
+    line-height: 1.8;
+    color: #666;
+    height: 100%;
+}
+
+.background-container--image1{
+    min-height: 100vh;
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.background-container--image2{
+    min-height: 80vh;
+    background-image: url(./images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.background-container--image3{
+    min-height: 80vh;
+    background-image: url(./images/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.background-container--image4{
+    min-height: 80vh;
+    background-image: url(./images/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.heading-container {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    font-size: 3rem;
+    color: white;
+    transform: translateY(-50%);
+}
+.heading-container__heading--big {
+    background-color: #1f1c1c;
+    padding: 1.5rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    outline: 7px inset purple;
+    outline-offset: 1rem;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+.heading-container__heading--small{
+    background-color: #1f1c1c;
+    padding: 0.5rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    outline: 7px inset purple;
+    outline-offset: 1rem;
+    letter-spacing: 7px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.background-container--image1,
+.background-container--image2,
+.background-container--image3,
+.background-container--image4{
+    position: relative;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+
+.section {
+    text-align: center;
+    padding: 3rem 5rem;
+}
+.section--light{
+    background-color: #F1F1F1;
+}
+.section--dark{
+    background-color: #282E34;
+    color: #ddd;
+}
