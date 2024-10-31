@@ -1,6 +1,3 @@
-## Expected Outcome
-
-![Project Snapshot](./images/expectedoutcome.mp4)
 
 ## Objective
 
