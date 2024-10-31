@@ -1,6 +1,6 @@
 ## Expected Outcome
 
-![Project Snapshot](./Project.gif)
+![Project Snapshot](./images/expectedoutcome.mp4)
 
 ## Objective
 
